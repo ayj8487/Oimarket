@@ -21,7 +21,11 @@ public class JDBCTest {
         try(Connection con = DriverManager.getConnection( 
                 "jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Seoul", 
                 "root", 
+<<<<<<< HEAD
                 "oracle")){ 
+=======
+                "1234")){ 
+>>>>>>> branch 'main' of https://github.com/ayj8487/Oimarket.git
             System.out.println(con); 
         } catch (Exception e) { 
             fail(e.getMessage()); 
