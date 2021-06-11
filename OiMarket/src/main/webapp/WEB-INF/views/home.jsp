@@ -25,7 +25,11 @@
 								<header id="header">
 									<a href="home.jsp" class="logo"><strong>OiMarket</strong></a>
 									<ul class="icons">
-										<li><a href="#"><span class="label">로그인/회원가입</span></a></li>
+										<li><a href="#"><span class="label">
+										
+										<a href="#">로그인</a> / <a href="#">회원가입</a>
+										
+										</span></a></li>
 									</ul>
 								</header>
 
