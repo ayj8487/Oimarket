@@ -10,18 +10,19 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.oi.market.member.model.MemberVO;
 import com.oi.market.service.MemberService;
 
-@Controller
-public class userRegiController {
-
-	private static final Logger logger = LoggerFactory.getLogger(userRegiController.class);
-
-	@Autowired
-	private MemberService memberservice;
 	
-	//회원가입 페이지 이름
-	@RequestMapping(value = "/join", method = RequestMethod.GET)
-	public void userRegi() {
-		
+@Controller
+@RequestMapping(value = "/member")
+public class MemberController {
+	
+	private static final Logger logger =  LoggerFactory.getLogger(MemberController.class);
+	
+	@Autowired
+	private MemberService memberService;
+	
+	//회원가입 페이지 이동
+	@RequestMapping(value = "join", method = RequestMethod.GET)
+	public void loginGET() {
 		logger.info("회원가입 페이지 진입");
 	}
 	
@@ -32,11 +33,12 @@ public class userRegiController {
 		logger.info("join 진입");
 		
 		//회원가입 서비스 실행
-		memberservice.memberJoin(member);
+		memberService.memberJoin(member);
 		
 		logger.info("join Service 성공");
 		
-		return "redirect:/main";
-	}
+		return "redirect:/home";
 		
+	}
+	
 }

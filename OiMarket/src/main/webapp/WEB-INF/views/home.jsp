@@ -27,7 +27,7 @@
 									<ul class="icons">
 										<li><a href="#"><span class="label">
 										
-										<a href="#">로그인</a> / <a href ="userRegi">회원가입</a> / 
+										<a href="login">로그인</a> / <a href ="join">회원가입</a> / 
 										<a href="#">상품등록</a> / <a href ="#">공지사항</a> / <a href="#">찜목록</a> / 
 										<a href="#">거래내역</a>
 										</span></a></li>
