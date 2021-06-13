@@ -13,12 +13,10 @@ import com.oi.market.service.MemberService;
 @Controller
 public class userRegiController {
 
-<<<<<<< HEAD
 	private static final Logger logger = LoggerFactory.getLogger(userRegiController.class);
 
 	@RequestMapping(value = "Regist", method = RequestMethod.GET)
 	public String Regist() {
-=======
 	/*
 	 * private static final Logger logger =
 	 * LoggerFactory.getLogger(userRegiController.class);
@@ -45,13 +43,7 @@ public class userRegiController {
 	 * 
 	 * return "redirect:/main"; }
 	 */
->>>>>>> branch 'main' of https://github.com/ayj8487/Oimarket.git
-		
-<<<<<<< HEAD
 			return "Regist";
 		}
 	}
 
-=======
-}
->>>>>>> branch 'main' of https://github.com/ayj8487/Oimarket.git
