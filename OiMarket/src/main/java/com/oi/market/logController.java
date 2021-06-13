@@ -7,14 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class userRegiController {
+public class logController {
 
-	private static final Logger logger = LoggerFactory.getLogger(userRegiController.class);
+	private static final Logger logger = LoggerFactory.getLogger(logController.class);
 
-	@RequestMapping(value = "Regist", method = RequestMethod.GET)
+	@RequestMapping(value = "log", method = RequestMethod.GET)
 	public String Regist() {
 		
-			return "Regist";
+			return "log";
 		}
 	}
-
