@@ -12,7 +12,7 @@ import com.oi.market.service.MemberService;
 
 	
 @Controller
-@RequestMapping(value = "/member")
+@RequestMapping(value="/member")
 public class MemberController {
 	
 	private static final Logger logger =  LoggerFactory.getLogger(MemberController.class);

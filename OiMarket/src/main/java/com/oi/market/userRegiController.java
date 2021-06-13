@@ -13,30 +13,31 @@ import com.oi.market.service.MemberService;
 @Controller
 public class userRegiController {
 
-	private static final Logger logger = LoggerFactory.getLogger(userRegiController.class);
-
-	@Autowired
-	private MemberService memberservice;
-	
-	//회원가입 페이지 이름
-	@RequestMapping(value = "/join", method = RequestMethod.GET)
-	public void userRegi() {
-		
-		logger.info("회원가입 페이지 진입");
-	}
-	
-	//회원가입
-	@RequestMapping(value = "/join", method = RequestMethod.POST)
-	public String joinPOST(MemberVO member) throws Exception{
-		
-		logger.info("join 진입");
-		
-		//회원가입 서비스 실행
-		memberservice.memberJoin(member);
-		
-		logger.info("join Service 성공");
-		
-		return "redirect:/main";
-	}
+	/*
+	 * private static final Logger logger =
+	 * LoggerFactory.getLogger(userRegiController.class);
+	 * 
+	 * @Autowired private MemberService memberservice;
+	 * 
+	 * //회원가입 페이지 이름
+	 * 
+	 * @RequestMapping(value = "/join", method = RequestMethod.GET) public void
+	 * userRegi() {
+	 * 
+	 * logger.info("회원가입 페이지 진입"); }
+	 * 
+	 * //회원가입
+	 * 
+	 * @RequestMapping(value = "/join", method = RequestMethod.POST) public String
+	 * joinPOST(MemberVO member) throws Exception{
+	 * 
+	 * logger.info("join 진입");
+	 * 
+	 * //회원가입 서비스 실행 memberservice.memberJoin(member);
+	 * 
+	 * logger.info("join Service 성공");
+	 * 
+	 * return "redirect:/main"; }
+	 */
 		
 }
