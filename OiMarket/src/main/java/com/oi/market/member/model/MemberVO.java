@@ -27,10 +27,6 @@ public class MemberVO {
 		private int adminCk;
 		
 		
-	
-		
-		//회원 포인트
-		//private int point;
 
 
 
@@ -128,18 +124,6 @@ public class MemberVO {
 
 
 
-
-/*
-		public int getPoint() {
-			return point;
-		}
-
-
-
-		public void setPoint(int point) {
-			this.point = point;
-		}
-*/
 
 
 		@Override
