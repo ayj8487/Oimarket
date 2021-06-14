@@ -15,4 +15,8 @@ public class ArticleController {
 	public void articleRegi() {
 		
 	}
+	@RequestMapping(value = "tet", method = RequestMethod.GET)
+	public void tet() {
+		
+	}
 }
