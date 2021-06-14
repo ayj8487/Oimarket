@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping(value = "/member")
 public class loginController {
 	private static final Logger logger = LoggerFactory.getLogger(loginController.class);
 
