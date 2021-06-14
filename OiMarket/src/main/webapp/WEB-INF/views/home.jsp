@@ -27,7 +27,7 @@
 									<ul class="icons">
 										<li><a href="#"><span class="label">
 										
-										<a href="#">로그인</a> / <a href="userRegi">회원가입</a> / 
+										<a href="member/login">로그인</a> / <a href ="member/join">회원가입</a> / 
 										<a href="#">상품등록</a> / <a href ="#">공지사항</a> / <a href="#">찜목록</a> / 
 										<a href="#">거래내역</a>
 										</span></a></li>
@@ -250,6 +250,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-	</body>
+	<script>
+		function fetchPage(name) {
+			fetch(name).then(function(response) {
+				response.text().then(function(text) {
+					document.querySelector('article').innerHTML = text;
+				})
+			});
+		}
+	</script>
+	
+</body>
 </html>
