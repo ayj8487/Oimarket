@@ -12,7 +12,6 @@ import com.oi.market.service.MemberService;
 
 	
 @Controller
-@RequestMapping(value="/member")
 public class MemberController {
 	
 	private static final Logger logger =  LoggerFactory.getLogger(MemberController.class);
@@ -27,7 +26,7 @@ public class MemberController {
 	}
 	
 	//회원가입
-	@RequestMapping(value = "/join", method = RequestMethod.POST)
+	@RequestMapping(value = "join", method = RequestMethod.POST)
 	public String joinPOST(MemberVO member) throws Exception{
 		
 		logger.info("join 진입");

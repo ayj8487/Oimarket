@@ -45,8 +45,8 @@ a.style {
 		<!-- login 안했을때 보이는 아이콘 -->
 		<div class="icons-content">
 			<ul class="icons line label">
-				<li><a href="log" class="style"><i class="fas fa-sign-in-alt fa-2x" title="로그인"></i></a></li>&nbsp;
-				<li><a href="Regist" class="style" ><i class="fas fa-user-alt fa-2x" title="회원가입"></i></a></li>
+				<li><a href="login" class="style"><i class="fas fa-sign-in-alt fa-2x" title="로그인"></i></a></li>&nbsp;
+				<li><a href="join" class="style" ><i class="fas fa-user-alt fa-2x" title="회원가입"></i></a></li>
 				
 			</ul>
 		</div>

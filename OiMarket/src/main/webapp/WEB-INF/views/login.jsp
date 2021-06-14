@@ -7,13 +7,7 @@
 <title>로그인 페이지</title>
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <meta name="google-signin-client_id" content="992940915144-otmm1bfsvrtfdafqb4uu5rs6ljklhqgl.apps.googleusercontent.com">
-<script>
-function f_loginCheck() {
-	var userId = $('input[name="userId"]').val();
-	var pwd = $('input[name="pwd"]').val();
-	var saveIdCheck = $('#save_id:checked').val();
-	
-}
+
 </script>
 </head>
 <body>
