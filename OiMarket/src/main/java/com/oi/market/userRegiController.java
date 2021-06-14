@@ -13,6 +13,10 @@ import com.oi.market.service.MemberService;
 @Controller
 public class userRegiController {
 
+	private static final Logger logger = LoggerFactory.getLogger(userRegiController.class);
+
+	@RequestMapping(value = "Regist", method = RequestMethod.GET)
+	public String Regist() {
 	/*
 	 * private static final Logger logger =
 	 * LoggerFactory.getLogger(userRegiController.class);
@@ -39,5 +43,7 @@ public class userRegiController {
 	 * 
 	 * return "redirect:/main"; }
 	 */
-		
-}
+			return "Regist";
+		}
+	}
+
