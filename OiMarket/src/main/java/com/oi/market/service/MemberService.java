@@ -1,6 +1,6 @@
 package com.oi.market.service;
 
-import com.oi.market.member.model.MemberVO;
+import com.oi.market.model.MemberVO;
 
 public interface MemberService {
 	

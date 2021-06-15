@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.oi.market.member.model.MemberVO;
+import com.oi.market.model.MemberVO;
 import com.oi.market.service.MemberService;
 
 	
