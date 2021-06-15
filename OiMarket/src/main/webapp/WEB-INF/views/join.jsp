@@ -48,35 +48,35 @@
 				<table>
 					<tr>
 						<td>Id : </td> 
-						<td><input class ="id_input" name ="id"></td>
+						<td><input type="text" class="id_input" name ="id"></td>
 						<td><button onClick="idChkFunction();" type="button">아이디 중복 확인</button></td>
 					</tr>
 					<tr>
 						<td>Pw : </td>
 						<td colspan="2">
-						<input class="pw_input" onkeyup="pwChkFunction();" name ="pw" ></td>
+						<input type="password" class="pw_input" onkeyup="pwChkFunction();" name ="pw" ></td>
 						
 					</tr>
 					<tr>
 						<td>PwCon : </td>
 						<td colspan="2">
-						<input class="pwCon_input" onkeyup="pwChkFunction();" name ="pwCon" ></td>
+						<input type="password" class="pwCon_input" onkeyup="pwChkFunction();" name ="pwCon" ></td>
 					</tr>
 					<tr>
 						<td>Name : </td>
-						<td><input class="name_input" name ="name"></td>
+						<td><input type="text" class="name_input" name ="name"></td>
 					</tr>
 					<tr>
 						<td>Email : </td>
-						<td><input class="email_input" name ="email"></td>
+						<td><input type="email"	class="email_input" name ="email"></td>
 					</tr>
 					<tr>
 						<td>Phone : </td>
-						<td><input class="phone_input" name ="phone"></td>
+						<td><input type="text" class="phone_input" name ="phone"></td>
 					</tr>
 					<tr>
 						<td>Address : </td>
-						<td><input class="address_input" name ="address"></td>
+						<td><input type="text" class="address_input" name ="address"></td>
 					</tr>
 					<tr>
 					<th colspan="3">
