@@ -1,4 +1,4 @@
-package com.oi.market.member.model;
+package com.oi.market.model;
 
 public class MemberVO {
 	    //회원 id
@@ -6,6 +6,9 @@ public class MemberVO {
 		
 		//회원 비밀번호
 		private String pw;
+		
+		//비밀번호 확인
+		private String pwCon;
 		
 		//회원 이름
 		private String name;
@@ -46,6 +49,16 @@ public class MemberVO {
 
 		public void setPw(String pw) {
 			this.pw = pw;
+		}
+		
+		
+		public String getPwCon() {
+			return pwCon;
+		}
+
+
+		public void setPwCon(String pwCon) {
+			this.pwCon = pwCon;
 		}
 
 
@@ -113,7 +126,7 @@ public class MemberVO {
 
 		@Override
 		public String toString() {
-			return "MemberVO [id=" + id + ", pw=" + pw + ", name=" + name
+			return "MemberVO [id=" + id + ", pw=" + pw + ", pwCon=" + pwCon +" + name=" + name
 					+ ", email=" + email + ", address=" + address 
 					+ ", created_at=" + created_at + ", adminCk=" + adminCk + "]";
 		}
