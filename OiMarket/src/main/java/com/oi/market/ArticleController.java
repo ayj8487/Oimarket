@@ -15,6 +15,10 @@ public class ArticleController {
 	public void articleRegi() {
 		
 	}
+	@RequestMapping(value = "local", method = RequestMethod.GET)
+	public void local() {
+		
+	}
 	@RequestMapping(value = "tet", method = RequestMethod.GET)
 	public void tet() {
 		

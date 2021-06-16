@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.oi.market.mapper.MemberMapper;
-import com.oi.market.member.model.MemberVO;
+import com.oi.market.model.MemberVO;
 
 @Service
 public class MemberServiceImpl implements MemberService{

@@ -17,17 +17,19 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class DataSourceTest {
 	  @Autowired
 	    private DataSource dataSource;
+	  
 	  @Autowired private 
 	    SqlSessionFactory sqlSessionFactory;
 	    @Test
 	    public void testConnection() {
 	      
-	        try(Connection con = dataSource.getConnection();
-	        		 SqlSession session = sqlSessionFactory.openSession();
+	        try(
+	        		Connection con = dataSource.getConnection();
+	        		SqlSession session = sqlSessionFactory.openSession();
 	        		){
 	            
 	            System.out.println("con = " + con);
-	            System.out.println("session = " + session);
+	            System.out.println("session=" + session);
 	        } catch(Exception e) {
 	            
 	            e.printStackTrace();
