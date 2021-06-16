@@ -35,31 +35,26 @@
 				</header>
 
 				<!-- Section  상품 목록-->
+		
+		<div class="join">
 				<section>
 				<form id="join_form" method="POST">
-				<!-- <div class="id_wrap">
-					<div class="id_name">아이디</div>
-					<div class="id_input_box">
-						<input class="id_input" name="id">
-					</div>
-				</div> -->
-
 
 				<table>
 					<tr>
 						<td>Id : </td> 
-						<td><input type="text" class="id_input" name ="id"></td>
+						<td > <input type="text" class="id_input" name ="id"></td>
 						<td><button onClick="idChkFunction();" type="button">아이디 중복 확인</button></td>
 					</tr>
 					<tr>
 						<td>Pw : </td>
-						<td colspan="2">
+						<td>
 						<input type="password" class="pw_input" onkeyup="pwChkFunction();" name ="pw" ></td>
 						
 					</tr>
 					<tr>
 						<td>PwCon : </td>
-						<td colspan="2">
+						<td >
 						<input type="password" class="pwCon_input" onkeyup="pwChkFunction();" name ="pwCon" ></td>
 					</tr>
 					<tr>
@@ -79,16 +74,18 @@
 						<td><input type="text" class="address_input" name ="address"></td>
 					</tr>
 					<tr>
-					<th colspan="3">
-					<div class="joinBtn_wrap">
+					<td colspan="3">
+					<div class="joinBtn_wrap" align="center">
+						<input type="reset" value="다시입력">  &nbsp;&nbsp;
 						<input type="button" class="joinBtn" value="회원가입"/>
                    </div>
-					</th>
+                   </td>
 					</tr>
 				</table>
 			</form>
 
 				</section>
+	</div>
 
 			</div>
 		</div>

@@ -19,31 +19,29 @@
 		<!-- Menu 전체 카테고리-->
 		<nav id="menu">
 			<header class="major">
-				<h2>Kategorie</h2>
+				<h2>Categorie</h2>
 			</header>
 			<ul>
 				<li><a href="#">대분류1</a></li>
 				<li><a href="#">대분류2</a></li>
 				<li><a href="#">대분류3</a></li>
-				<li><span class="opener">대분류4</span>
-					<ul>
-						<li><a href="#">중분류1</a></li>
-						<li><a href="#">중분류2</a></li>
-						<li><a href="#">중분류3</a></li>
-						<li><a href="#">중분류4</a></li>
-					</ul></li>
-				<li><a href="#">대분류5</a></li>
-				<li><a href="#">대분류6</a></li>
-				<li><span class="opener">대분류7</span>
-					<ul>
-						<li><a href="#">중분류1</a></li>
-						<li><a href="#">중분류2</a></li>
-						<li><a href="#">중분류3</a></li>
-						<li><a href="#">중분류4</a></li>
-					</ul></li>
 				<li><a href="#">대분류8</a></li>
 				<li><a href="#">대분류9</a></li>
 				<li><a href="#">대분류10</a></li>
+<!-- 				<li><span class="opener">대분류4</span> -->
+<!-- 					<ul> -->
+<!-- 						<li><a href="#">중분류1</a></li> -->
+<!-- 						<li><a href="#">중분류2</a></li> -->
+<!-- 						<li><a href="#">중분류3</a></li> -->
+<!-- 						<li><a href="#">중분류4</a></li> -->
+<!-- 					</ul></li> -->
+<!-- 				<li><span class="opener">대분류7</span> -->
+<!-- 					<ul> -->
+<!-- 						<li><a href="#">중분류1</a></li> -->
+<!-- 						<li><a href="#">중분류2</a></li> -->
+<!-- 						<li><a href="#">중분류3</a></li> -->
+<!-- 						<li><a href="#">중분류4</a></li> -->
+<!-- 					</ul></li> -->
 			</ul>
 		</nav>
 
