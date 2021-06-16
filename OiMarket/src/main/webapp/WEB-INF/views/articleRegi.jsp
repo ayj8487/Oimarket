@@ -75,6 +75,7 @@
 							<tr><td><strong>수량</strong></td><td><input type="text" name="count" id="count" value="1" min="1" max="999" maxlength="3"> </td></tr>		
 							<tr><td><strong>거래지역</strong></td><td>
 							<a href ="tet">지도 등록테스트</a>
+							<a href = "aaa.html">맵</a>
 							</td></tr>		
 							<tr><td><strong>거래일시</strong></td><td><input type="datetime-local" name="time" id="time" required="required" > </td></tr>		
 							<tr><td><strong>설명</strong></td><td><textarea name="detail" id="detail" placeholder="상품 설명을 입력하세요."></textarea></td></tr>		
