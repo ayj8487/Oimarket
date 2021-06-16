@@ -38,7 +38,7 @@
 		
 		<div class="join">
 				<section>
-				<form id="join_form" method="POST">
+				<form id="join_form" action="">
 
 				<table>
 					<tr>
@@ -77,7 +77,8 @@
 					<td colspan="3">
 					<div class="joinBtn_wrap" align="center">
 						<input type="reset" value="다시입력">  &nbsp;&nbsp;
-						<input type="button" class="joinBtn" value="회원가입"/>
+<!-- 						<input type="button" class="joinBtn" value="회원가입"/> -->
+						<button><a href="joinok">회원가입</a></button>
                    </div>
                    </td>
 					</tr>
@@ -105,13 +106,13 @@
 	<script src="assets/js/main.js"></script>
 
 	<script>
-		$(document).ready(function() {
-			//회원가입 버튼(회원가입 기능 작동)
-			$(".joinBtn").click(function() {
-				$("#join_form").attr("action", "join");
-				$("#join_form").submit();
-			});
-		});
+// 		$(document).ready(function() {
+// 			//회원가입 버튼(회원가입 기능 작동)
+// 			$(".joinBtn").click(function() {
+// 				$("#join_form").attr("action", "join");
+// 				$("#join_form").submit();
+// 			});
+// 		});
 	</script>
 
 </body>

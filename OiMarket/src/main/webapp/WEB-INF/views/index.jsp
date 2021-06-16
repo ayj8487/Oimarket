@@ -37,7 +37,7 @@
 					</header>
 						<p>설명 3</p>
 						<ul class="actions">
-							<li><a href="#" class="button big">광고 바로가기</a></li>
+							<li><a href="banner" class="button big">광고 바로가기</a></li>
 						</ul>
 					</div>
 					<span class="image object"> 
