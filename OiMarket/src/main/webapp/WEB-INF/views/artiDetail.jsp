@@ -12,6 +12,8 @@
 	content="width=device-width, initial-scale=1,  user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
 <link rel="preconnect" href="https://fonts.gstatic.com">
+<style type="text/css">
+</style>
 </head>
 <body class="is-preload">
 
@@ -31,13 +33,19 @@
 				<section id="banner">
 					<div class="content">
 					<header>
-						<h1>광고노출 배너<br />
-							설명 1</h1>
-							<p>설명2</p>
+						<h2>상품명 
+							<br />
+							<hr/>
+						</h2>
+							<h3>• 상품상태</h3>
+							<h3>• 거래지역</h3>
+							<h3>• 상품상태</h3>
+							<h3>• 상품상태</h3>
+							<h3>• 상품상태</h3>
+							
 					</header>
-						<p>설명 3</p>
 						<ul class="actions">
-							<li><a href="banner" class="button big">광고 바로가기</a></li>
+							<li><a href="banner" class="button big">예약하기</a></li>
 						</ul>
 					</div>
 					<span class="image object"> 
@@ -49,7 +57,7 @@
 		<!-- Section  섹션2 추가시 -->
 				<section>
 					<header class="major">
-						<h2>섹션2</h2>
+						<h2>연관상품</h2>
 					</header>
 					<div class="features">
 						<article>
@@ -62,7 +70,10 @@
 						<article>
 							<img alt="" src="images/pic02.jpg">
 							<div class="content">
-								<h3>주제</h3>
+								<h3>주제
+								
+								<br/>
+								</h3>
 								<p>내용</p>
 							</div>
 						</article>
@@ -83,12 +94,15 @@
 					</div>
 				</section>
 
-				<!-- Section  상품 목록-->
+				<!-- Section  -->
 				<section>
 					<header class="major">
-						<h2>오늘의 상품 추천</h2>
+						<h2>상품문의</h2>
 					</header>
-					e댓글 
+					<textarea rows="3"></textarea><br/>
+					<div align="right">
+					<button>등록</button>
+					</div>
 				</section>
 
 			</div>

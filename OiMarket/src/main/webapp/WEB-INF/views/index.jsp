@@ -90,51 +90,51 @@
 					</header>
 					<div class="posts">
 						<article>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+							<a href="artiDetail" class="image"><img src="images/pic01.jpg" alt="" /></a>
 							<h3>상품 1</h3>
 							<p>상품 설명</p>
 							<ul class="actions">
-								<li><a href="#" class="button">예약하기</a></li>
+								<li><a href="artiDetail" class="button">예약하기</a></li>
 							</ul>
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+							<a href="artiDetail" class="image"><img src="images/pic02.jpg" alt="" /></a>
 							<h3>상품 2</h3>
 							<p>상품 설명</p>
 							<ul class="actions">
-								<li><a href="#" class="button">예약하기</a></li>
+								<li><a href="artiDetail" class="button">예약하기</a></li>
 							</ul>
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+							<a href="artiDetail" class="image"><img src="images/pic03.jpg" alt="" /></a>
 							<h3>상품 3</h3>
 							<p>상품 설명</p>
 							<ul class="actions">
-								<li><a href="#" class="button">예약하기</a></li>
+								<li><a href="artiDetail" class="button">예약하기</a></li>
 							</ul>
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+							<a href="artiDetail" class="image"><img src="images/pic04.jpg" alt="" /></a>
 							<h3>상품 4</h3>
 							<p>상품 설명</p>
 							<ul class="actions">
-								<li><a href="#" class="button">예약하기</a></li>
+								<li><a href="artiDetail" class="button">예약하기</a></li>
 							</ul>
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+							<a href="artiDetail" class="image"><img src="images/pic05.jpg" alt="" /></a>
 							<h3>상품 5</h3>
 							<p>상품 설명</p>
 							<ul class="actions">
-								<li><a href="#" class="button">예약하기</a></li>
+								<li><a href="artiDetail" class="button">예약하기</a></li>
 							</ul>
 						</article>
 						<article>
-							<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+							<a href="artiDetail" class="image"><img src="images/pic06.jpg" alt="" /></a>
 							<h3>상품 6</h3>
 							<p>상품 설명</p>
 							<ul class="actions">
-								<li><a href="#" class="button">예약하기</a></li>
+								<li><a href="artiDetail" class="button">예약하기</a></li>
 							</ul>
 						</article>
 					</div>

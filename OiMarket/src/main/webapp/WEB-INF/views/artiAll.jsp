@@ -33,12 +33,8 @@
 
 				<!-- Section  -->
 				<section>
-					<h2 style="font-family: 굴림;" align="center">가입이 완료되었습니다.</h2>
-				<hr>
-				<div align="center">
-					<a href="../market">홈으로</a>&nbsp;&nbsp;&nbsp; 
-					<a href="articleRegi">상품등록</a>
-				</div>
+					<h2>검색상품 조회(전체)</h2>
+					
 				</section>
 
 			</div>
