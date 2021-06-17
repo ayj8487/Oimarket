@@ -34,7 +34,7 @@
 			<section>
 			<h3>상품등록</h3>
 				<div>
-					<form action="" name="frm" id="frm">
+					<form action="ac" name="frm" id="frm">
 						<table>
 
 							<tr><td><strong>상품 이미지</strong></td><td>
@@ -74,8 +74,10 @@
 								
 							<tr><td><strong>수량</strong></td><td><input type="text" name="count" id="count" value="1" min="1" max="999" maxlength="3"> </td></tr>		
 							<tr><td><strong>거래지역</strong></td><td>
+							<a href ="tet">지도 등록테스트</a>
+							<a href = "aaa.html">맵</a>
 							<input type="button" value="지도보기" onclick="pop();" />
-					<a href="tet">마커로 위치표기tet</a>						
+						<a href="tet">마커로 위치표기tet</a>						
 							<input type="text" readonly="readonly"> 
 							</td></tr>		
 							<tr><td><strong>거래일시</strong></td><td><input type="datetime-local" name="time" id="time" required="required" > </td></tr>		

@@ -11,16 +11,24 @@ public class ArticleController {
 
 	private static final Logger logger = LoggerFactory.getLogger(ArticleController.class);
 
-	@RequestMapping(value = "articleRegi", method = RequestMethod.GET)
+	@RequestMapping(value = "articleRegi")
 	public void articleRegi() {
 		
 	}
-	@RequestMapping(value = "local", method = RequestMethod.GET)
+	@RequestMapping(value = "local")
 	public void local() {
 		
 	}
-	@RequestMapping(value = "tet", method = RequestMethod.GET)
+	@RequestMapping(value = "tet")
 	public void tet() {
+		
+	}
+	@RequestMapping(value = "adRegi")
+	public void adRegi() {
+		
+	}
+	@RequestMapping(value = "artiDetail")
+	public void artiDetail() {
 		
 	}
 }

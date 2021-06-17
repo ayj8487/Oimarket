@@ -16,28 +16,33 @@ public class MemberController {
 	
 	private static final Logger logger =  LoggerFactory.getLogger(MemberController.class);
 	
-	@Autowired
-	private MemberService memberService;
+//	@Autowired
+//	private MemberService memberService;
 	
 	//회원가입 페이지 이동
-	@RequestMapping(value = "join", method = RequestMethod.GET)
+	@RequestMapping(value = "join")
 	public void loginGET() {
-		logger.info("회원가입 페이지 진입");
 	}
 	
-	//회원가입
-	@RequestMapping(value = "join", method = RequestMethod.POST)
-	public String joinPOST(MemberVO member) throws Exception{
-		
-		logger.info("join 진입");
-		
-		//회원가입 서비스 실행
-		memberService.memberJoin(member);
-		
-		logger.info("join Service 성공");
-		
-		return "redirect:/home";
+	@RequestMapping(value = "joinok" )
+	public void joinok() {
 		
 	}
+	
+//	//회원가입
+//	@RequestMapping(value = "join", method = RequestMethod.POST)
+//	public String joinPOST(MemberVO member) throws Exception{
+//		
+//		logger.info("join 진입");
+//		
+//		//회원가입 서비스 실행
+//		memberService.memberJoin(member);
+//		
+//		logger.info("join Service 성공");
+//		
+//		return "redirect:/home";
+//		
+//	}
+//	
 	
 }
