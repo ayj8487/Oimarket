@@ -11,7 +11,7 @@
 
 		<!-- Search 검색창-->
 		<section id="search" class="alt">
-			<form method="post" action="#">
+			<form method="post" action="artiAll">
 				<input type="text" name="query" id="query" placeholder="상품명,지역명 입력" />
 			</form>
 		</section>

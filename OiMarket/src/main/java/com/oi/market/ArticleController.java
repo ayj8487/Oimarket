@@ -31,4 +31,10 @@ public class ArticleController {
 	public void artiDetail() {
 		
 	}
+	@RequestMapping(value = "artiAll")
+	public void artiAll() {
+		
+	}
+
+		
 }
