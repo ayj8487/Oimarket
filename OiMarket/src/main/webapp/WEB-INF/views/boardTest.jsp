@@ -12,6 +12,30 @@
 	content="width=device-width, initial-scale=1,  user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
 <link rel="preconnect" href="https://fonts.gstatic.com">
+<script>
+function test() {
+	console.log("btn click");
+	$(function() {
+		var object = {
+				"num1" : "1"
+		};
+		console.log(object);
+		$.ajax({
+			url: 'test',
+			data: object,
+			type: 'post',
+			dataType : 'JSON',
+			success: function(data) {
+				console.log(data);
+				$("#req1").append("<p style='color:red;'>" + data.num + "</p>");
+			},
+			error: function(e) {
+				console.log("error");
+			}
+		});
+	});
+}
+</script>
 </head>
 <body class="is-preload">
 
@@ -39,6 +63,7 @@
 				</span>
 				
 				<input type="button" value="버튼테스트" onclick="test();">
+				
 				</section>
 
 			</div>
