@@ -50,6 +50,8 @@ a.style {
 				<li><a href="articleRegi" class="style" ><i class="fas fa-shopping-basket fa-2x" title="상품등록"></i></a></li>
 				<li><a href="adRegi">광고등록</a></li>
 				<li><a href="artiDetail">상품상세</a></li>
+				<li><a href="boardTest">게시판 테스트</a></li>
+				
 				
 			</ul>
 		</div>
