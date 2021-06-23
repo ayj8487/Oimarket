@@ -13,28 +13,23 @@
 
 # 프로젝트 기획안
 
-![이미지](https://user-images.githubusercontent.com/86095143/122853691-98892780-d34d-11eb-9a77-32a02a30ce3c.png)
+![이미지](https://user-images.githubusercontent.com/86095143/123044431-977ef580-d434-11eb-83bb-b3e0aa7df8c2.png)
 
 # Database Schema
 
 ![이미지](https://user-images.githubusercontent.com/86095143/122889014-5ed01500-d37d-11eb-9f34-bdc18b9f1ede.png)
 
-# 개발 환경
 
-+ sts4
-+ tool : spring boot
-+ jdk 1.8
-+ maven 2.5.1
-+ packaging : jar
-+ Language : java
-+ junut 4
-+ jpa
-+ Rest api
-+ jwt
-+ oauth
-+ lombok
-+ mysql 8.0
-+ mybatis 2.2.0
-+ hidelate
-+ spring security
+# 개발 환경
+##  환경 구성 : 
++ Server OS : Windows 10
++ Spring boot Framework : 2.5.1
++ java version : 1.8
++ build tool : maven 4.0.0
++ Language : JAVA 1.8
++ WEB Server : Apache 
++ WAS Server : Tomcat 7
++ DB : MySQL 8.0
++ ORM : mybatis 2.2.0
+
 
