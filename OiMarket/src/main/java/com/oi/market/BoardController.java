@@ -16,16 +16,19 @@ public class BoardController {
 		
 	}
 	
-	@RequestMapping(value="test")
-	@ResponseBody
-	public Map<String, Object> stockDateClick(@RequestParam("num1") String num){
-		Map<String, Object> map = new HashMap<String, Object>();
-		map.put("num", num);
-		map.put("num2", 2);
-		String test = num;
-		System.out.println("test ==> " + test);
-		System.out.println("map ==> " + map); 
-		
-		return map;
-	}
+//	@RequestMapping(value="test")
+//	@ResponseBody
+//	public Map<String, Object> stockDateClick(@RequestParam("num1") String num){
+//		Map<String, Object> map = new HashMap<String, Object>();
+//		map.put("num", num);
+//		map.put("num2", 2);
+//		String test = num;
+//		System.out.println("test ==> " + test);
+//		System.out.println("map ==> " + map); 
+//		
+//		return map;
+//	}
+	
+	
+	
 }
