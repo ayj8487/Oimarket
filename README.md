@@ -15,7 +15,8 @@
 
 # 프로젝트 기획안
 
-![이미지](https://user-images.githubusercontent.com/86095143/123044431-977ef580-d434-11eb-83bb-b3e0aa7df8c2.png)
+![이미지](https://user-images.githubusercontent.com/86095143/123190750-1c244f00-d4db-11eb-8939-99e03d909a80.png)
+
 
 # Database Schema
 
